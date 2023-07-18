@@ -1,0 +1,53 @@
+.footer{
+    background-color: #000000;
+    display: flex;
+    margin-top: 5%;
+}
+
+#rowFooter{
+    display: block;
+    margin: auto;
+    margin-left: 1%;
+    margin-right: auto;
+}
+
+.blockIcon{
+    color: #fdd835cd;
+}
+
+.footer p{
+    color: white;
+}
+
+h2{
+    color: white;
+    font-family: lobster;
+}
+
+.blockLocalization{
+    text-align: left;
+    color: white;
+}
+
+#rowAbout{
+    width: 33%;
+    text-align: left;
+    margin-left: 5%;
+}
+#rowContact{
+    width: 33%;
+    text-align: left;
+    margin-left: 5%;
+}
+#rowHours{
+    width: 33%;
+    text-align: left;
+    margin-left: auto;
+}
+
+.infoHours{
+    display: flex;
+}
+.hours{
+    color: red;
+}

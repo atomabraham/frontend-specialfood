@@ -1,0 +1,66 @@
+.BodyMore{
+    margin-top: -1.2%;
+}
+
+.rowTitle{
+    width: 80%;
+    margin: auto;
+    margin-top: 4%;
+}
+
+.title1{
+    text-align: left;
+    color: rgba(0, 0, 0, 0);
+}
+
+.title2{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+}
+
+.price{
+    font-size: 20px;
+}
+
+.linkCommand{
+    text-decoration: none;
+    background-color: black;
+    color: #FDD835;
+    text-align: right;
+}
+
+.blockImage{
+    width: 100%;
+    margin: auto;
+}
+
+.image{
+    width: 80%;
+}
+
+.blockImage2{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.image2{
+    width: 24%;
+    margin:auto;
+    margin-left: 0%;
+    height: 150px;
+}
+
+.detail{
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+}
+
+.detail p{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 0%;
+}
