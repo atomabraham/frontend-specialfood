@@ -20,7 +20,7 @@ function App() {
             </Route>
             <Route path="/detail" element={<More />}>
             </Route>
-            <Route path="/detail/commande" element={Command}>
+            <Route path="/detail/commande" element={<Command/>}>
             </Route>
           </Routes>
         </BrowserRouter>

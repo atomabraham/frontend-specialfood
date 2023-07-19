@@ -1,0 +1,24 @@
+.blocModal{
+}
+
+.resetButton{
+}
+
+.confirmButton{
+    background-color: black;
+    border: none;
+    color: #FDD835;
+
+    &:hover{
+        background-color: rgba(14, 12, 12, 0.832);
+    }
+}
+
+.nameGroup{
+    display: flex;
+    margin: auto;
+}
+
+.secondName{
+    margin-left: 2%;
+}

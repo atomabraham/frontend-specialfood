@@ -23,12 +23,7 @@
     font-size: 20px;
 }
 
-.linkCommand{
-    text-decoration: none;
-    background-color: black;
-    color: #FDD835;
-    text-align: right;
-}
+
 
 .blockImage{
     width: 100%;
@@ -47,7 +42,7 @@
 }
 
 .image2{
-    width: 24%;
+    width: 24.5%;
     margin:auto;
     margin-left: 0%;
     height: 150px;
@@ -63,4 +58,29 @@
     font-weight: bold;
     text-align: left;
     margin-left: 0%;
+}
+
+@keyframes linkAnimation {
+    From{
+        background-color: black;
+    }
+    TO{
+        background-color: red;
+    }
+    
+}
+
+.linkCommand{
+    text-decoration: none;
+    font-family: lobster;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: black;
+    color: #FDD835;
+    text-align: right;
+    border: none;
+    &:hover{
+        background-color: rgba(14, 12, 12, 0.832);
+        transition: 1s;
+    }
 }
