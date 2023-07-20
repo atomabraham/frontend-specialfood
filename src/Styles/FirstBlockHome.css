@@ -1,0 +1,11 @@
+.FirstBlockHome{
+    width:100%;
+    background-image: url('../Assets/menu-g7101183d3_1280.jpg');
+    background-size: cover;
+    height:662px;
+}
+
+.blockOpacity{
+    width:100%;
+    height:100%;    
+}
