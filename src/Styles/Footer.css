@@ -1,7 +1,10 @@
 .footer{
-    background-color: #000000;
     display: flex;
     margin-top: 5%;
+}
+
+.footer2{
+    background-color: black;
 }
 
 #rowFooter{
@@ -11,22 +14,46 @@
     margin-right: auto;
 }
 
+.contact{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.titleHours{
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
 .blockIcon{
+    margin-left: 15%;
     color: #fdd835cd;
+}
+
+.icon{
+    margin-left: 2%;
 }
 
 .footer p{
     color: white;
 }
 
-h2{
+.blockAbout2{
+    margin-left: 15%;
+}
+
+.aboutFooter{
+    margin-top: 10%;
+}
+
+/*h2{
     color: white;
     font-family: lobster;
-}
+}*/
 
 .blockLocalization{
     text-align: left;
     color: white;
+    margin-left: 15%;
 }
 
 #rowAbout{
@@ -34,11 +61,18 @@ h2{
     text-align: left;
     margin-left: 5%;
 }
+
+
 #rowContact{
     width: 33%;
     text-align: left;
     margin-left: 5%;
 }
+
+.textContact{
+    margin-left: 5%;
+}
+
 #rowHours{
     width: 33%;
     text-align: left;
@@ -50,4 +84,20 @@ h2{
 }
 .hours{
     color: red;
+}
+
+.infoHours{
+    margin-left: 5%;
+}
+
+.hours{
+    margin-left: 25%;
+}
+
+.hours1{
+    margin-left: 15%;
+}
+
+.copyrigth{
+    color: white;
 }

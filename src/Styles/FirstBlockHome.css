@@ -6,6 +6,57 @@
 }
 
 .blockOpacity{
-    width:100%;
-    height:100%;    
+    width:80%;
+    height:100%;  
+    margin: auto;  
+}
+
+.nameSpecialFood{
+    color: white;
+    opacity: 0;
+    font-size: 30px;
+}
+
+.devise{
+    color: #FDD835;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-decoration: solid;
+    margin-top: -2%;
+    font-size: 35px;
+}
+
+.nameSpecialFood2{
+    color: white;
+    margin-top: 10%;
+    filter: drop-shadow(5px 5px 1px rgba(0, 0, 0, 0.624));
+    font-family:'Courier New';
+    font-style: italic;
+    font-weight: bold;
+    font-size: 70px;
+    text-align: left;
+}
+
+.textSpecialFood{
+    text-align: left;
+    color: white;
+    font-size: 30px;
+}
+
+.callToAction{
+    text-decoration: none;
+    text-align: left;
+    background-color: black;
+    padding: 1%;
+    border-radius: 5px;
+    color: #FDD835;
+    font-family: lobster;
+    font-size: 20px;
+    top: 20%;
+    margin-left: -60%;
+    &:hover{
+        background-color: rgba(14, 12, 12, 0.832);
+        transition: 1s;
+    }
 }

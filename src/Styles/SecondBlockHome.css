@@ -1,0 +1,35 @@
+.secondBlockHome{
+    margin-top: 8%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.title{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.695);
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 10%;
+}
+
+.about{
+    text-align: left;
+    color: black;
+    font-size: 20px;
+}
+
+.imageAbout{
+    margin-left: 33.8%;
+    width: 80%;
+    height: 90%;
+    align-items:flex-end;
+    vertical-align: middle;
+}
+
+.moreAbout{
+    margin-left: -73%;
+}
+
+/*Animasta*/

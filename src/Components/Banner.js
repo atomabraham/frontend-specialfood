@@ -9,9 +9,9 @@ function Banner(){
     }
     return (
     <div className="banner" id='banner' onScroll={Test}>
-        <Link to='/' className='buttonMenu' id='buttonMenu1'>Acceuil</Link>
-        <Link to='/menu' className='buttonMenu' id='buttonMenu2'>Nos Menus</Link>
-        <Link to='/' className='buttonMenu' id='buttonMenu3'>Nous contacter</Link>
+        <Link to='/' className='buttonMenu' id='buttonMenu1'>ACCEUIL</Link>
+        <Link to='/menu' className='buttonMenu' id='buttonMenu2'>NOS MENUS</Link>
+        <Link to='/' className='buttonMenu' id='buttonMenu3'>NOUS CONTACTER</Link>
     </div>
     )
     

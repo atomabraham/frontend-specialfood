@@ -8,10 +8,10 @@ function SecondBanner(){
         alert("Hello")
     }
     return (
-    <div className="banner" id='banner' onScroll={Test}>
-        <Link to='/' className='buttonMenu' id='buttonMenu1'>Acceuil</Link>
-        <Link to='/menu' className='buttonMenu' id='buttonMenu2'>Nos Menus</Link>
-        <Link to='/' className='buttonMenu' id='buttonMenu3'>Nous contacter</Link>
+    <div className="banner2" id='banner2' onScroll={Test}>
+        <Link to='/' className='buttonMenu2' id='buttonMenu12'>ACCEUIL</Link>
+        <Link to='/menu' className='buttonMenu2' id='buttonMenu22'>NOS MENUS</Link>
+        <Link to='/' className='buttonMenu2' id='buttonMenu32'>NOUS CONTACTER</Link>
     </div>
     )
     

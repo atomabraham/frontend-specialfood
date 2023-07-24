@@ -1,16 +1,15 @@
 /*style de la banniere*/
-.banner{
+.banner2{
     position: fixed;
     width: 100%;
     padding: 20px;
     margin-top: 0%;
-    background-color:none;
-    border:none;
-    box-shadow: #d8d1d179 0px 0px 3px 5px;
+    background-color: rgba(0, 0, 0, 0.662);
+    border: none;
     z-index: 4;
 }
 
-.buttonMenu{
+.buttonMenu2{
     position: relative;
     color: #FDD835;
     background-color: transparent;
@@ -20,16 +19,16 @@
     margin: 50px; 
     cursor: pointer;
     font-size: 20px;
-    font-family: lobster;
+    font-family:lobster;
     &:hover{
        color: rgba(167, 162, 162, 0.651);
     }
 }
 
-#buttonMenu1{
+#buttonMenu12{
     padding-right: 5%;
 }
-#buttonMenu3{
+#buttonMenu32{
     padding-left: 5%;
 }
 
